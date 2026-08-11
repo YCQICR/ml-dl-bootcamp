@@ -83,6 +83,14 @@ python week1\titanic_ml.py
 - ResNet 论文：<https://arxiv.org/abs/1512.03385>
 - The Illustrated Transformer：<https://jalammar.github.io/illustrated-transformer/>
 
+## 已实测通过（2026-08-11）
+
+- 环境：`ml-dl`（Python 3.11），PyTorch `2.6.0+cu124`，RTX 3060 Laptop 6GB，CUDA 可用。
+- 已验证脚本：第 1 周两个脚本、第 2 周全部脚本、第 3 周 LeNet 与 ResNet-18
+  （`--quick --synthetic` 快速模式跑通全流程）。
+- GPU 实测：ResNet-18 在合成数据上 1 个 epoch 约 3.3 秒（CPU 约 69 秒）。
+- 说明：快速模式用合成数据验证流程；正式训练时脚本会自动下载真实数据集。
+
 ## 本月明确不做
 
 - RNN/LSTM、Transformer 完整实现、大模型微调（留到入学后）
