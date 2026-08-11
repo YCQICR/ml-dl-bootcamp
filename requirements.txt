@@ -1,0 +1,16 @@
+# 一个月 ML/DL 快速入门 · Python 依赖
+#
+# 重要：Windows 且有 NVIDIA 显卡的用户，请先按 https://pytorch.org/get-started/locally/
+# 安装 CUDA 版 PyTorch（选择 Windows + Pip + CUDA 12.x），再执行：
+#   pip install -r requirements.txt
+# 这样 pip 会复用已安装的 torch，不会重复下载。
+
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+scikit-learn>=1.4
+tensorboard>=2.15
+tqdm>=4.66
+jupyterlab>=4.1

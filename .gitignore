@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# 数据与模型产物（由脚本自动生成，不入库）
+data/
+checkpoints/
+runs/
+*.log
+
+# 图片产物
+week*/figures/*.png
+week*/figures/*.csv
+week*/.mplconfig/
+week*/example_data.csv
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
