@@ -94,7 +94,7 @@ git config --global user.email "你的邮箱"
 2. 在项目目录执行：
 
 ```powershell
-cd outputs\ml-dl-bootcamp
+cd D:\ml-dl-bootcamp
 git init
 git add .
 git commit -m "一个月 ML/DL 快速入门：第 1 周"

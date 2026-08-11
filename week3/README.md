@@ -15,7 +15,7 @@
 ## 运行方式
 
 ```powershell
-cd outputs\ml-dl-bootcamp
+cd D:\ml-dl-bootcamp
 conda activate ml-dl
 
 # 快速验证（合成数据）

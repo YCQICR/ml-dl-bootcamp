@@ -19,7 +19,7 @@
 ## 运行方式
 
 ```powershell
-cd outputs\ml-dl-bootcamp
+cd D:\ml-dl-bootcamp
 conda activate ml-dl
 python week1\numpy_pandas_plot.py
 python week1\titanic_ml.py

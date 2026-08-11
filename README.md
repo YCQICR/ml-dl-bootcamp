@@ -36,7 +36,7 @@ ml-dl-bootcamp/
 
 ```powershell
 # 进入项目目录
-cd outputs\ml-dl-bootcamp
+cd D:\ml-dl-bootcamp
 # 运行第 1 周练习
 python week1\numpy_pandas_plot.py
 python week1\titanic_ml.py
